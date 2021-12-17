@@ -1,0 +1,40 @@
+/* Style topics nested on different levels. */
+.topictitle1,
+.topictitle1 * {
+  font-size: 16pt;
+  /*color: #e3c03e;*/
+  color: #f00;
+
+}
+
+.topictitle2,
+.topictitle2 * {
+       font-size: 16pt;
+       color: #333;
+}
+
+.topictitle3,
+.topictitle3 * {
+       font-size: 14pt;
+       color: #575756;
+}
+
+
+.topictitle4,
+.topictitle4 * {
+       font-size: 12pt;
+       color: #575756;
+}
+
+.topictitle5,
+.topictitle5 * {
+       font-size: 12pt;
+       color: #9D9D9C;
+}
+
+.topictitle6,
+.topictitle6 * {
+       font-size: 12pt;
+       font-weight: bolder;
+       color: black;
+}
