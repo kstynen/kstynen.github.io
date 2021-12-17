@@ -31,11 +31,10 @@ table:has(thead) {
 /* Set padding for table entries. */
 td {
   padding: 10px;
-  font-size: 9px !important;
 }
 
-td.entry {
-  font-size: 16px;
+td * {
+  font-size: 9pt !important;
 }
 
 /* Style the table and choicetable headers. 
