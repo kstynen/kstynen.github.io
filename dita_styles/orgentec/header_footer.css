@@ -14,7 +14,7 @@
         content: "";
         letter-spacing: 0.025em;
         border: none;
-        background-color: 004F9F;
+        background-color: #004F9F;
     }
 }
 
@@ -25,7 +25,7 @@
         font-size:18px;
         color:  #575756;
         border: none;
-        background-color: 004F9F;
+        background-color: #004F9F;
         font-style: normal;
         font-weight: bold;
         
@@ -34,7 +34,7 @@
         content: "";
         letter-spacing: 0.025em;
         border: none;
-        background-color: 004F9F;
+        background-color: #004F9F;
     }
 }
 
@@ -64,14 +64,14 @@
         color: #fff;
         font-style: normal;
         border: none;
-         background-color:004F9F;
+         background-color:#004F9F;
         font-size: 18px;
         font-weight: bold;
     }
     @bottom-right {
         font-size: 18px;
         border: none;
-          background-color:004F9F;
+          background-color:#004F9F;
         font-style: normal;
         font-weight: normal;        
         font-size: 18px;
@@ -106,14 +106,14 @@
         color: #fff;
         font-style: normal;
         border: none;
-        background-color:004F9F;
+        background-color:#004F9F;
         font-size: 18px;
         font-weight: bold;
     }
     @bottom-right {
         font-size: 18px;
         border: none;
-        background-color:004F9F;
+        background-color:#004F9F;
         font-style: normal;
         font-weight: normal;        
         font-size: 18px;
