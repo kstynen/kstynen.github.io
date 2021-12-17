@@ -6,9 +6,10 @@ body > .topictitle1 {
 /* Add a custom TOC heading. */
 nav > ul:first-child::before { 
     content: "Contents";
-    font-size: 42px;
+    font-size: 16px;
     color: #000;
     text-align: left;
+    font-family: Arial, Times;
     font-style: normal;
     font-weight: bold;
     display: block;
@@ -25,10 +26,10 @@ nav {
 
 /* Style the font for the entire TOC. */
 nav * {
-    font-style: normal;
     color: #000; 
     text-decoration: none;
-      font-size: 10pt;
+    font-family: Arial, Times;
+    font-size: 10pt;
     font-style: normal;
 }
 
