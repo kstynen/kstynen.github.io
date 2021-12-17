@@ -9,6 +9,10 @@ table {
   /* width: 100%; 100% shows a vertical scrollbar on sites. */
   margin: 5px 0px 5px 0px;
   table-layout: auto;
+  width: 90%;
+  border: 1px solid #999 !important;
+  border-top: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
+  border-bottom: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
 }
 
 /* Remove the table and choicetable borders completely. */
@@ -20,12 +24,6 @@ table * {
   vertical-align: top;
 }
 
-/* Add a top-border for tables that do not contain thead elements. */
-table {
-    border: 1px solid #999 !important;
-  border-top: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
-  border-bottom: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
-}
 table:has(thead) {
   border-top: none;
 }
