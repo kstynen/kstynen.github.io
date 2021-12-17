@@ -9,6 +9,11 @@ figcaption:not(figcaption > .desc) {
   margin: 15px 0px 0px 0px;
 }
 
+.table--title-label,
+.fig--title-label {
+  font-size: 11pt;
+}
+
 /* Style topics nested on different levels. */
 .topictitle1,
 .topictitle1 * {
