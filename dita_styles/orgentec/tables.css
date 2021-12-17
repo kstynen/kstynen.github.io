@@ -33,7 +33,7 @@ td {
   padding: 10px;
 }
 
-td * {
+td, td * {
   font-size: 9pt !important;
 }
 
