@@ -1,0 +1,43 @@
+
+/*@font-face{
+    font-family:"avenir-next-lt-pro-regular";
+    src: url("https://fontsme.com/wp-data/a/700/17700/file/AvenirNextLTPro-Regular.otf") format("opentype");
+}*/
+
+
+
+
+/* Set the AvenirNextLTPro font globally. */
+@page {
+  /*font-family: avenir-next-lt-pro-regular;*/
+    font-family: Arial, Times;
+}
+
+/* Set the avenir-next-lt-pro-regular font properties for the document body and #content-wrapper. */
+body,
+article,
+.body * {
+  color: #000;
+  /* font-family: "avenir-next-lt-pro-regular", Helvetica, Arial; */
+  line-height: 1.5em;
+  text-align: left;
+  font-size: 11pt;
+}
+
+/* Set how the strong elements are displayed.
+Asserts that their children elements are uniformly styled. */
+strong.b,
+strong.b * {
+  font-weight: bold;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Set how the emphasized elements are displayed.
+Asserts that their children elements are uniformly styled. */
+em.i,
+em.i * {
+  font-style: italic;
+  font-family: inherit;
+  font-size: inherit;
+}
