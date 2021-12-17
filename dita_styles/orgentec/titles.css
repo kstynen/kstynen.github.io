@@ -14,7 +14,6 @@ figcaption:not(figcaption > .desc) {
   color: #000;
   border: none;
   text-align: left;
-  font-size: 10pt;
   font-style: normal;
   font-weight: bold;
   word-wrap: break-word;
@@ -64,7 +63,7 @@ figcaption:not(figcaption > .desc) {
 .table--title-label *,
 .table > caption > .title,
 .table > caption > .title * {
-  font-size: 16px;
+  font-size: 11pt;
   background-color: transparent;
 }
 
