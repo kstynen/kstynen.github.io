@@ -1,3 +1,14 @@
+/* Style every title in a consistent way.
+Ensure that the titles children are styled in a consistent way. */
+.title,
+.title *,
+.table--title-label,
+.fig--title-label,
+figcaption:not(figcaption > .desc) {
+  
+  margin: 15px 0px 0px 0px;
+}
+
 /* Style topics nested on different levels. */
 .topictitle1,
 .topictitle1 * {
