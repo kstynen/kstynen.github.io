@@ -1,0 +1,12 @@
+/* Default layout Document body */
+ @page {
+    size: A4;
+    margin: 25mm 25mm;
+}
+
+
+/* Default layout TOC */
+@page toc {
+    size: A4;
+    margin: 25mm 25mm;
+}
