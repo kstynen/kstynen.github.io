@@ -10,7 +10,8 @@ figcaption:not(figcaption > .desc) {
 }
 
 .table--title-label,
-.fig--title-label {
+.fig--title-label, 
+table > title {
   font-size: 11pt;
   display: inline;
 }
