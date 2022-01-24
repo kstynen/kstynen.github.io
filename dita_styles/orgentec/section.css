@@ -1,6 +1,6 @@
 /* Set section margins. */
 .section {
-  margin: 12px 0px 0px 0px !important; /* The !important property is needed to make it work in SSG. */
+  margin: 0px 0px 0px 0px !important; /* The !important property is needed to make it work in SSG. */
 }
 .sectiontitle {
   font-size: 11pt;
@@ -10,7 +10,7 @@
 
 /* Reduce margins before sections after remedy titles. */
 .remedy > .title ~ section {
-  margin-top: 5px;
+  margin-top: 0px;
 }
 
 /* Add paragraph-like margins to sections that do not start with paragraphs. */
