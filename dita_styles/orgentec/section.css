@@ -1,6 +1,6 @@
 /* Set section margins. */
 .section {
-  margin: 24px 0px 0px 0px !important; /* The !important property is needed to make it work in SSG. */
+  margin: 12px 0px 0px 0px !important; /* The !important property is needed to make it work in SSG. */
 }
 .sectiontitle {
   font-size: 11pt;
