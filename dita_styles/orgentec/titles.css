@@ -114,10 +114,10 @@ article:has(.topictitle1, :not(article)) {
        font-size: 11pt;
 }
 
-.topictitle2 > .body {
+.topictitle2 + div {
     text-indent: 1em;
 }
 
-.topictitle3 > .body {
+.topictitle3 + div {
     text-indent: 2em;
 }
