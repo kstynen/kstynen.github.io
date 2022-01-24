@@ -20,7 +20,7 @@ figcaption:not(figcaption > .desc) {
   line-height: 1.2em;
   background-color: transparent;
   padding: 0px;
-  margin: 24px 0px 12px 0px;
+  margin: 12px 0px 6px 0px;
 }
 
 /* Remove margins for image and table titles. */
@@ -63,7 +63,7 @@ figcaption:not(figcaption > .desc) {
 .table--title-label *,
 .table > caption > .title,
 .table > caption > .title * {
-  font-size: 11pt;
+  font-size: 10pt;
   background-color: transparent;
 }
 
@@ -72,7 +72,7 @@ figcaption:not(figcaption > .desc) {
 .table--title-label {
   display: inline;
   margin: 0px;
-  padding: 10px 0px 0px 0px;
+  padding: 12px 0px 6px 0px;
 }
 
 /* Do not add margins before chapters (level-1 topics) that contain children topics. */
