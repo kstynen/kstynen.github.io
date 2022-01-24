@@ -20,7 +20,7 @@ figcaption:not(figcaption > .desc) {
   line-height: 1.2em;
   background-color: transparent;
   padding: 0px;
-  margin: 48px 0px 24px 0px;
+  margin: 24px 0px 12px 0px;
 }
 
 /* Remove margins for image and table titles. */
@@ -40,7 +40,7 @@ figcaption:not(figcaption > .desc) {
 
 /* Add top margins before chapters (level-1 topics) that do not contain children topics. */
 .topictitle1 {
-  margin-top: 48px;
+  margin-top: 24px;
 }
 
 /* Style topics nested on different levels. */
@@ -77,7 +77,7 @@ figcaption:not(figcaption > .desc) {
 
 /* Do not add margins before chapters (level-1 topics) that contain children topics. */
 article:has(.topictitle1, :not(article)) {
-  margin-bottom: 50px;
+  margin-bottom: 12px;
 }
 
 /* Fix titles placement. */
