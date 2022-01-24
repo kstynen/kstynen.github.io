@@ -89,13 +89,13 @@ article:has(.topictitle1, :not(article)) {
 .topictitle2,
 .topictitle2 * {
        font-size: 11pt;
-       text-indent: 1em;
+       margin-left: 1em;
 }
 
 .topictitle3,
 .topictitle3 * {
        font-size: 11pt;
-       text-indent: 2em;
+       margin-left: 2em;
 }
 
 
