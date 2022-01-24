@@ -40,7 +40,7 @@ figcaption:not(figcaption > .desc) {
 
 /* Add top margins before chapters (level-1 topics) that do not contain children topics. */
 .topictitle1 {
-  margin-top: 50px;
+  margin-top: 48px;
 }
 
 /* Style topics nested on different levels. */
