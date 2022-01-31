@@ -3,5 +3,5 @@ article a[href*="table"] {
 }
 
 article a[href*="table"]::before {
-    content: " Table " target-counter(attr(href), tablecount) !important;
+    content: " Table " target-counters(attr(href), page, "-") !important;
 }
