@@ -3,7 +3,7 @@ table {
   /* width: 100%; 100% shows a vertical scrollbar on sites. */
   margin: 5px 5px 5px 5px;
   table-layout: auto;
-  width: 90%;
+  width: 98%;
   border: 1px solid #999 !important;
   border-top: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
   border-bottom: 1px solid #999 !important; /* The important property seems to be needed to overwrite the default SSG styling */
