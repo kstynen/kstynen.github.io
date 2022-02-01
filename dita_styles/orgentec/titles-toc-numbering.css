@@ -5,8 +5,8 @@ body > .topictitle1 {
 
 /* Add a custom TOC heading. */
 nav > ul:first-child::before { 
-    content: "Contents";
-    font-size: 24px;
+    content: "Table of Contents";
+    font-size: 11pt;
     color: #000;
     text-align: left;
     font-family: Arial, Times;
@@ -38,7 +38,7 @@ nav a::after {
     content: leader(".") target-counter(attr(href), page); 
     margin-left: 0px;
     font-weight: normal;
-    font-size: 16px;
+    font-size: 11pt;
 }
 
 /* Set margins and padding for the TOC links. */
