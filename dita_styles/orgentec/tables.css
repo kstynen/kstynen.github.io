@@ -42,11 +42,9 @@ Assert the same styling in table and choicetable headers and their children elem
 tr,
 th,
 th * {
-  /*font-weight: bold !important;  The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
-  /*color: black !important;*/ /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
-  color: #555 !important;
-  /*background-color: #e3c03e !important;*/
-  background-color: #D5DCE4 !important;
+  font-weight: bold !important; /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
+  color: black !important; /* The important property seems to be needed to overwrite the default PDF Gen and SSG styling */
+  background-color: #eee !important;
   /*padding: 5px;*/
   letter-spacing: 0.5px;
   vertical-align: top;
