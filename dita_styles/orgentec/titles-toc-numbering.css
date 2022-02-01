@@ -80,7 +80,7 @@ nav li > ul li:first-child {
 
 nav::before {
     display: none;
-  content: "Contents";
+  content: "Table of Contents";
   font-size: 2rem;
   color: #ccc;
 }
@@ -107,7 +107,7 @@ nav ul ul {
 nav ul li ul li:not(.topichead):before {
   counter-increment: toc_level2;
   content: counter(toc_level1) "." counter(toc_level2) ". ";
-    margin: 30px;
+  margin: 30px;
 }
 nav ul ul ul {
   /* content: none; */
@@ -119,6 +119,7 @@ nav ul li ul li ul li:not(.topichead):before {
   counter-increment: toc_level3;
   /*  content:none; */
   content: counter(toc_level1) "." counter(toc_level2) "." counter(toc_level3) ". "; 
+  margin: 50px;
 }
 nav ul ul ul ul {
     content: none;
