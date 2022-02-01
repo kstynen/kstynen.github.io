@@ -15,7 +15,7 @@ table * {
   border-collapse: collapse;
   border: none !important; /* needed to overwrite the default site styling. */
   text-align: left;
-  vertical-align: top;
+  vertical-align: middle;
 }
 
 /*  
@@ -42,8 +42,8 @@ th * {
   background-color: #eee !important;
   /*padding: 5px;*/
   letter-spacing: 0.5px;
-  vertical-align: top;
-  text-align: center;
+  vertical-align: middle;
+  text-align: left;
   font-family: Arial, Times;
   font-size: 9pt !important;
 }
@@ -64,13 +64,13 @@ th {
 /* Style uneven table and choicetable rows. */
 tr:nth-child(odd) > td {
   background-color: #fff;
-  vertical-align: top;
+  vertical-align: middle;
   border: 1px solid #999 !important;
 }
 
 /* Style even table and choicetable rows. */
 tr > td {
 background-color: #fff;
-vertical-align: top;
+vertical-align: middle;
 border: 1px solid #999 !important;
 }
