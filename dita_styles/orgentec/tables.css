@@ -44,7 +44,7 @@ th * {
   letter-spacing: 0.5px;
   vertical-align: top;
   font-family: Arial, Times;
-  font-size: 9pt;
+  font-size: 9pt !important;
 }
 th,
 th *,
