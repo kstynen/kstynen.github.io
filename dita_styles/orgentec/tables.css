@@ -52,6 +52,10 @@ th > .fn::footnote-call {
   background-color: #000;
 }
 
+th {
+    border: 1px solid #999 !important;
+}
+
 /* Style uneven table and choicetable rows. */
 tr:nth-child(odd) > td {
   background-color: #fff;
