@@ -12,8 +12,8 @@ table {
 /* Remove the table and choicetable borders completely. */
 table,
 table * {
- /* / border-collapse: collapse;
-  border: none !important; */ /* needed to overwrite the default site styling. */
+  border-collapse: collapse;
+  border: none !important; /* needed to overwrite the default site styling. */
   text-align: left;
   vertical-align: top;
 }
