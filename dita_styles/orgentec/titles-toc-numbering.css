@@ -110,7 +110,7 @@ nav ul li ul li:not(.topichead):before {
     margin: 30px;
 }
 nav ul ul ul {
-    content: none;
+  /* content: none; */
   counter-reset: toc_level3;
 }
 
