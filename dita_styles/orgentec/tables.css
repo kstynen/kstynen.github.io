@@ -1,7 +1,7 @@
 /* Ensure that tables and choicetables span across the whole space available. */
 table {
   /* width: 100%; 100% shows a vertical scrollbar on sites. */
-  margin: 5px 0px 5px 0px;
+  margin: 5px 5px 5px 5px;
   table-layout: auto;
   width: 90%;
   border: 1px solid #999 !important;
@@ -25,7 +25,7 @@ table:has(thead) {
 
 /* Set padding for table entries. */
 td {
-  padding: 10px;
+    padding: 4px 10px 4px 10px;
 }
 
 td, td * {
@@ -43,6 +43,7 @@ th * {
   /*padding: 5px;*/
   letter-spacing: 0.5px;
   vertical-align: top;
+  text-align: center;
   font-family: Arial, Times;
   font-size: 9pt !important;
 }
@@ -56,7 +57,7 @@ th > .fn::footnote-call {
 
 th {
     border: 1px solid #999 !important;
-    padding: 5px 10px 5px 10px;
+    padding: 4px 10px 4px 10px;
     
 }
 
