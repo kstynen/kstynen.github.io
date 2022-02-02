@@ -49,7 +49,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   color: black;
   font-style: normal;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   font-size: 16pt;
   line-height: 90px;
   /* height: 200px; Should match the height property in the .cover-page-content selector. */
@@ -67,7 +67,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-style: normal;
   font-size: 16pt;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
 }
 
@@ -81,7 +81,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-style: normal;
   font-size: 16pt;
   font-weight: bold;
-  text-align: left;
+  text-align: center;
   line-height: 30px;
 }
 
@@ -108,10 +108,6 @@ table.customer-table td{
 
 .meta-version{
     padding-top: 30px;
-}
-
-.center {
-    margin: auto;
 }
 
 
