@@ -50,12 +50,12 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   font-size: 20pt;
-  line-height: 90px;
+  line-height: normal;
   /* height: 200px; Should match the height property in the .cover-page-content selector. */
   /* margin-top: 25%; Should match the margin-bottom property in the .cover-page-content selector. */
   word-wrap: normal; /* Should you need to wrap long words, set to break-word */
-  letter-spacing: 0.025em;
-  
+  letter-spacing: 0.025em;;
+  margin: 100px 0 100px 0;
 }
 
 .topic-meta{
@@ -66,7 +66,9 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-size: 24pt;
   font-weight: bold;
   text-align: center;
-  line-height: 90px;
+  line-height: normal;
+  padding: 20px 0 20px 0;
+  margin: 100px 0 100px 0;
 }
 
 .customer-meta{
@@ -78,7 +80,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   line-height: 30px;
-  margin-top: 100px;
+  margin: 100px 0 100px 0;
 }
 
 .meta-company-address{
@@ -105,7 +107,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   display: block;
   clear: both;
   background-color: #fff;
-  height: 150px;
+  height: 200px;
   width: 100%;
   margin: 0mm 0mm 0mm -15mm;
   padding: 0mm 15mm 0mm 15mm;
@@ -113,7 +115,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 
 .text-stripe {
   position: absolute;
-  top: 150px;
+  top: 70mm;
   display: block;
   clear: both;
   background-color: #fff;
@@ -123,7 +125,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 
 .customer-stripe{
   position: absolute;
-  top: 140mm;
+  top: 160mm;
   display: block;
   clear: both;
   background-color: #fff;
