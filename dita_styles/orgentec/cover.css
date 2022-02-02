@@ -110,6 +110,10 @@ table.customer-table td{
     padding-top: 30px;
 }
 
+.center {
+    margin: auto;
+}
+
 
 /* Style the bottom area of the cover. */
 .top-stripe {
