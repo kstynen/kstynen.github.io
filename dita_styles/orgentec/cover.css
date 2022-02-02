@@ -142,8 +142,8 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
   margin: 0px;
   top: 25px;
   left: 25mm;
-  height: 150px;
-  width: 350px;
+  height: 200px;
+  width: 200px;
 }
 
 /* Define where the actual logo is placed in the <div class="logo-container"> */
