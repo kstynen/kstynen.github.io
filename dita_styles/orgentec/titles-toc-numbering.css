@@ -56,7 +56,7 @@ html {
   counter-reset: section_level1;
 }
 
-div.numberzero {
+html .numberzero {
   counter-reset: section_level1 -1;
 }
 
