@@ -71,6 +71,7 @@
         font-style: normal;
         font-weight: normal;        
         color: #575756;
+        border-top: 1px gray;
     }
     @bottom-right {
         font-size: 9pt;
@@ -82,6 +83,7 @@
         content: "CONFIDENTIAL\A Page " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
         white-space: pre-wrap;
+        border-top: 1px gray;
     }
 }
 
@@ -117,6 +119,7 @@
         font-style: normal;
         font-weight: normal;        
         color: #575756;
+        border-top: 1px gray;
     }
     @bottom-right {
         font-size: 9pt;
@@ -128,5 +131,6 @@
         content: "CONFIDENTIAL\A Page " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
         white-space: pre-wrap;
+        border-top: 1px gray;
     }
 }
