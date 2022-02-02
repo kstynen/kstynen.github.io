@@ -78,12 +78,13 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   line-height: 30px;
+  margin-top: 100px;
 }
 
 
 .meta-value{
     text-transform: uppercase;
-    color:red;
+    color: black;
     line-height: 30px;
 }
 
