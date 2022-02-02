@@ -44,7 +44,6 @@ NOTE: You may need to adjust the padding, height, and margin properties for cove
 NOTE: You may need to adjust the height property for cover page size and orientation different than A4 portrait. */
 .title-text {
   display: block;
-  margin-left: 25mm;
   clear: both;
   color: black;
   font-style: normal;
@@ -60,8 +59,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .topic-meta{
-    display: block;
-  margin-left: 25mm;
+  display: block;
   clear: both;
   color: black;
   font-style: normal;
@@ -72,9 +70,8 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .customer-meta{
-      position: absolute;
-    display: block;
-  margin-left: 25mm;
+  position: absolute;
+  display: block;
   top: 140mm;
   clear: both;
   color: black;
@@ -153,5 +150,5 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
 .logo {
   display: block;
   float: left;
-  max-width: 70px;
+
 }
