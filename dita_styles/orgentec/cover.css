@@ -26,7 +26,7 @@ NOTE: You may need to adjust the padding property for cover page size and orient
 
 /* Apply the typography settings to the cover page. */
 .cover-page-container * {
-  font-family: Arial, Times;
+  font-family: "Roboto", Helvetica, Arial;
 }
 
 /* Define the space where the title can be placed.
@@ -59,7 +59,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .topic-meta{
-  display: block;
+    display: block;
   clear: both;
   color: black;
   font-style: normal;
@@ -70,8 +70,8 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .customer-meta{
-  position: absolute;
-  display: block;
+      position: absolute;
+    display: block;
   top: 140mm;
   clear: both;
   color: black;
@@ -100,7 +100,7 @@ table.customer-table td{
 .meta-value{
     text-transform: uppercase;
     color:red;
-    line-height: 30px;
+    line-height: px;
 }
 
 .meta-version{
@@ -122,8 +122,8 @@ table.customer-table td{
 }
 
 .text-stripe {
-  position: absolute;
-  top: 350px;
+    position: absolute;
+  top: 150px;
   display: block;
   clear: both;
   background-color: #fff;
@@ -140,7 +140,7 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
   position: absolute;
   padding: 0px;
   margin: 0px;
-  top: 25mm;
+  top: 25px;
   left: 25mm;
   height: 150px;
   width: 350px;
@@ -150,5 +150,5 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
 .logo {
   display: block;
   float: left;
-
+  max-width: 70px;
 }
