@@ -1,3 +1,10 @@
+/* Style inline cross-references. */
+.xref,
+.link {
+  color: #00f;
+  text-decoration: underline;
+}
+
 article a[href*="table"] {
     content: "" !important;
 }
