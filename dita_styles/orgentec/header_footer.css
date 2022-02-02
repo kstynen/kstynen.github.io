@@ -119,7 +119,7 @@
         font-size: 18px;
          color: #575756;
         font-weight: bold;
-        content: "Page " counter(page) " of " counter(pages);
+        content: "CONFIDENTIAL\aPage " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
     }
 }
