@@ -56,6 +56,10 @@ html {
   counter-reset: section_level1;
 }
 
+html .numberzero{
+  counter-increment: section_level1 -1;
+}
+
 
 nav a { color:black; text-decoration: none;}
 
