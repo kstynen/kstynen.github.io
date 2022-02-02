@@ -59,7 +59,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .topic-meta{
-    display: block;
+  display: block;
   clear: both;
   color: black;
   font-style: normal;
@@ -70,8 +70,8 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .customer-meta{
-      position: absolute;
-    display: block;
+  position: absolute;
+  display: block;
   top: 140mm;
   clear: both;
   color: black;
@@ -82,25 +82,11 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   line-height: 30px;
 }
 
-table.customer-table {
-    width: 100%;
-    border: none !important;
-    border-top: none !important; /* The important property seems to be needed to overwrite the default SSG styling */
-  border-bottom: none !important;
-}
-
-table.customer-table td{
-    width: 100%;
-    border: none !important;
-   border-top: none !important; /* The important property seems to be needed to overwrite the default SSG styling */
-  border-bottom: none !important;
-}
-
 
 .meta-value{
     text-transform: uppercase;
     color:red;
-    line-height: px;
+    line-height: 30px;
 }
 
 .meta-version{
@@ -122,7 +108,7 @@ table.customer-table td{
 }
 
 .text-stripe {
-    position: absolute;
+  position: absolute;
   top: 150px;
   display: block;
   clear: both;
