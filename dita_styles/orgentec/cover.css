@@ -69,18 +69,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   line-height: 30px;
 }
 
-.customer-meta{
-  position: absolute;
-  display: block;
-  top: 140mm;
-  clear: both;
-  color: black;
-  font-style: normal;
-  font-size: 16pt;
-  font-weight: bold;
-  text-align: center;
-  line-height: 30px;
-}
+
 
 
 .meta-value{
@@ -115,6 +104,15 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   background-color: #fff;
   width: 100%;
 
+}
+
+.customer-stripe{
+  position: absolute;
+  top: 140mm;
+  display: block;
+  clear: both;
+  background-color: #fff;
+  width: 100%;
 }
 
 
