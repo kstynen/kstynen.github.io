@@ -76,7 +76,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   line-height: 30px;
-  margin: 100px 0 100px 0;
+  margin: 100px 0 0 0;
 }
 
 .meta-company-address,
