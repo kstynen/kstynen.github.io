@@ -75,7 +75,7 @@
         font-style: normal;
         font-weight: normal;        
         color: #575756;
-        content: "CONFIDENTIAL \A Page " counter(page) " of " counter(pages);
+        content: "CONFIDENTIAL\A Page " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
         white-space: pre-wrap;
     }
@@ -117,7 +117,7 @@
         font-style: normal;
         font-weight: normal;        
         color: #575756;
-        content: "CONFIDENTIAL \A Page " counter(page) " of " counter(pages);
+        content: "CONFIDENTIAL\A Page " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
         white-space: pre-wrap;
     }
