@@ -55,7 +55,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   /* margin-top: 25%; Should match the margin-bottom property in the .cover-page-content selector. */
   word-wrap: normal; /* Should you need to wrap long words, set to break-word */
   letter-spacing: 0.025em;;
-  margin: 100px 0 100px 0;
+  margin: 100px 0 0 0;
 }
 
 .topic-meta{
@@ -64,7 +64,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   color: black;
   text-align: center;
   padding: 40px 0 40px 0;
-  margin: 100px 0 100px 0;
+  margin: 100px 0 0 0;
 }
 
 .customer-meta{
