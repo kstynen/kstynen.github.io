@@ -62,11 +62,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   display: block;
   clear: both;
   color: black;
-  font-style: normal;
-  font-size: 24pt;
-  font-weight: bold;
   text-align: center;
-  line-height: normal;
   padding: 40px 0 40px 0;
   margin: 100px 0 100px 0;
 }
@@ -91,12 +87,15 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 
 .meta-value{
     text-transform: uppercase;
-    color: black;
-    line-height: 30px;
+    line-height: 50px;
+    font-style: normal;
+    font-size: 24pt;
+    font-weight: bold; 
 }
 
 .meta-version{
     font-size: 14pt;
+    line-height: normal;
 }
 
 
