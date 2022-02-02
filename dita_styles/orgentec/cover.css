@@ -115,7 +115,7 @@ table.customer-table td{
   display: block;
   clear: both;
   background-color: #fff;
-  height: 200px;
+  height: 150px;
   width: 100%;
   margin: 0mm 0mm 0mm -15mm;
   padding: 0mm 15mm 0mm 15mm;
@@ -142,8 +142,8 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
   margin: 0px;
   top: 25mm;
   left: 25mm;
-  height: 200px;
-  width: 200px;
+  height: 150px;
+  width: 350px;
 }
 
 /* Define where the actual logo is placed in the <div class="logo-container"> */
