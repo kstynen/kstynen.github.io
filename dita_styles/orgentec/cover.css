@@ -103,7 +103,7 @@ table.customer-table td{
 .meta-value{
     text-transform: uppercase;
     color:red;
-    line-height: px;
+    line-height: 30px;
 }
 
 .meta-version{
