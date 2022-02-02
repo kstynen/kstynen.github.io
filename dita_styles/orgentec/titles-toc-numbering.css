@@ -56,11 +56,11 @@ html {
   counter-reset: section_level1;
 }
 
-html .numberzero {
+div.numberzero {
   counter-reset: section_level1 -1;
 }
 
-html .numberzero nav ul {
+nav ul.numberzero {
   counter-reset: toc_level1 -1;
 }
 
