@@ -57,11 +57,11 @@ html {
 }
 
 html.numberzero {
-  counter-reset: section_level1 -1;
+  counter-reset: section_level1 -1 !important;
 }
 
 html.numberzero nav ul {
-  counter-reset: toc_level1 -1;
+  counter-reset: toc_level1 -1 !important;
 }
 
 nav a { color:black; text-decoration: none;}
