@@ -111,15 +111,13 @@
         font-weight: bold;
     }
     @bottom-right {
-        font-size: 18px;
+        font-size: 10pt;
         border: none;
         background-color:white;
         font-style: normal;
         font-weight: normal;        
-        font-size: 18px;
-         color: #575756;
-        font-weight: bold;
-        content: "CONFIDENTIAL\aPage " counter(page) " of " counter(pages);
+        color: #575756;
+        content: "CONFIDENTIAL \A Page " counter(page) " of " counter(pages);
         letter-spacing: 0.025em;
     }
 }
