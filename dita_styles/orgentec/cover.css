@@ -55,7 +55,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   /* margin-top: 25%; Should match the margin-bottom property in the .cover-page-content selector. */
   word-wrap: normal; /* Should you need to wrap long words, set to break-word */
   letter-spacing: 0.025em;;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .topic-meta{
@@ -64,7 +64,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   color: black;
   text-align: center;
   padding: 40px 0 40px 0;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .customer-meta{
@@ -76,7 +76,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   line-height: 30px;
-  margin: 100px 0 0 0;
+  margin: 50px 0 0 0;
 }
 
 .meta-company-address,
@@ -94,7 +94,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 }
 
 .meta-version{
-    margin-top: 100px;
+    margin-top: 50px;
     font-size: 14pt;
     line-height: normal;
 }
@@ -143,7 +143,7 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
   margin: 0px;
   top: 25mm;
   left: 25mm;
-  height: 250px;
+  height: 200px;
   width: 200px;
 }
 
@@ -151,5 +151,5 @@ NOTE: You may need to adjust the padding, margin, bottom, right, height, and wid
 .logo {
   display: block;
   float: left;
-
+  max-width: 150px;
 }
