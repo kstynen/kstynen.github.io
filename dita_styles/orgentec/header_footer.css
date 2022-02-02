@@ -41,32 +41,36 @@
 /* BODY */
 @page:left{
     @top-right{
-        content: "Qarad";
+        content: "{map.title}";
         letter-spacing: 0.025em;
         line-height: 1em;
-        font-weight: bold;
+        font-size: 9pt;
+        border: none;
+        background-color:white;
+        font-style: normal;
+        font-weight: normal;        
         color: #575756;
-        font-size: 18px;
     }
     @top-left{
-        font-size: 18px;
-        color: #575756;
+        font-size: 9pt;
+        border: none;
+        background-color:white;
         font-style: normal;
-        font-weight: bold;
-        text-transform: none;
-        content: "{map.title}";
+        font-weight: normal;        
+        color: #575756;
+        content: "ORGENTEC Diagnostika";
         letter-spacing: 0.025em;
         line-height: 1em;
     }
     @bottom-left{
         content: "";
         letter-spacing: 0.025em;
-        color: #575756;
-        font-style: normal;
+        font-size: 9pt;
         border: none;
-         background-color:white;
-        font-size: 18px;
-        font-weight: bold;
+        background-color:white;
+        font-style: normal;
+        font-weight: normal;        
+        color: #575756;
     }
     @bottom-right {
         font-size: 9pt;
@@ -83,32 +87,36 @@
 
 @page:right{
     @top-right{
-        content: "Qarad";
+        content: "{map.title}";
         letter-spacing: 0.025em;
         line-height: 1em;
-        font-weight: bold;
+        font-size: 9pt;
+        border: none;
+        background-color:white;
+        font-style: normal;
+        font-weight: normal;        
         color: #575756;
-        font-size: 18px;
     }
     @top-left{
-        font-size: 18px;
-        color: #575756;
+        font-size: 9pt;
+        border: none;
+        background-color:white;
         font-style: normal;
-        font-weight: bold;
-        text-transform: none;
-        content: "{map.title}";
+        font-weight: normal;        
+        color: #575756;
+        content: "ORGENTEC Diagnostika";
         letter-spacing: 0.025em;
         line-height: 1em;
     }
     @bottom-left{
         content: "";
         letter-spacing: 0.025em;
-        color: #575756;
-        font-style: normal;
+        font-size: 9pt;
         border: none;
         background-color:white;
-        font-size: 18px;
-        font-weight: bold;
+        font-style: normal;
+        font-weight: normal;        
+        color: #575756;
     }
     @bottom-right {
         font-size: 9pt;
