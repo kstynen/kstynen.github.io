@@ -1,0 +1,157 @@
+
+
+
+/* Differentiate the cover page from the TOC and the document body. */
+.cover-page-container {
+  prince-page-group: start;
+  page: cover_page;
+  counter-reset: page 0;
+}
+
+/* Style the cover page.
+Assert that the cover page size and orientation is never changed. */
+@page cover_page {
+  size: A4 portrait; /* Changing this property requires you to adjust padding for children elements. Please, see the comments below. */
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Make the cover-page-container (h1) fills up the whole cover page.
+NOTE: You may need to adjust the padding property for cover page size and orientation different than A4 portrait. */
+.cover-page-container {
+  display: block;
+  clear: both;
+  padding: 0px 0px 1002px 0px;
+}
+
+/* Apply the typography settings to the cover page. */
+.cover-page-container * {
+  font-family: "Roboto", Helvetica, Arial;
+}
+
+/* Define the space where the title can be placed.
+NOTE: You may need to adjust the padding, height, and margin properties for cover page size and orientation different than A4 portrait. */
+.cover-page-content {
+  display: inline-block;
+  clear: both;
+  width: 100%;
+  padding: 0mm 15mm 0mm 15mm;
+  margin-bottom: 25%; /* Should match the margin-top property in the .title-text selector. */
+  height: 923px; /* Should match the height property in the .title-text selector. */
+}
+
+/* Style the cover page title. 
+NOTE: You may need to adjust the height property for cover page size and orientation different than A4 portrait. */
+.title-text {
+  display: block;
+  margin-left: 25mm;
+  clear: both;
+  color: black;
+  font-style: normal;
+  font-weight: bold;
+  text-align: left;
+  font-size: 16pt;
+  line-height: 90px;
+  /* height: 200px; Should match the height property in the .cover-page-content selector. */
+  /* margin-top: 25%; Should match the margin-bottom property in the .cover-page-content selector. */
+  word-wrap: normal; /* Should you need to wrap long words, set to break-word */
+  letter-spacing: 0.025em;
+  
+}
+
+.topic-meta{
+    display: block;
+  margin-left: 25mm;
+  clear: both;
+  color: black;
+  font-style: normal;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+}
+
+.customer-meta{
+      position: absolute;
+    display: block;
+  margin-left: 25mm;
+  top: 140mm;
+  clear: both;
+  color: black;
+  font-style: normal;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: left;
+  line-height: 30px;
+}
+
+table.customer-table {
+    width: 100%;
+    border: none !important;
+    border-top: none !important; /* The important property seems to be needed to overwrite the default SSG styling */
+  border-bottom: none !important;
+}
+
+table.customer-table td{
+    width: 100%;
+    border: none !important;
+   border-top: none !important; /* The important property seems to be needed to overwrite the default SSG styling */
+  border-bottom: none !important;
+}
+
+
+.meta-value{
+    text-transform: uppercase;
+    color:red;
+    line-height: px;
+}
+
+.meta-version{
+    padding-top: 30px;
+}
+
+
+/* Style the bottom area of the cover. */
+.top-stripe {
+  position: absolute;
+  top: 0px;
+  display: block;
+  clear: both;
+  background-color: #fff;
+  height: 150px;
+  width: 100%;
+  margin: 0mm 0mm 0mm -15mm;
+  padding: 0mm 15mm 0mm 15mm;
+}
+
+.text-stripe {
+    position: absolute;
+  top: 150px;
+  display: block;
+  clear: both;
+  background-color: #fff;
+  width: 100%;
+
+}
+
+
+/* Define the space where a logo can be placed. 
+NOTE: You may need to adjust the padding, margin, bottom, right, height, and width properties for a cover page size and orientation different than A4 portrait. */
+.logo-container {
+  display: block;
+  clear: both;
+  position: absolute;
+  padding: 0px;
+  margin: 0px;
+  top: 25px;
+  left: 25mm;
+  height: 150px;
+  width: 350px;
+}
+
+/* Define where the actual logo is placed in the <div class="logo-container"> */
+.logo {
+  display: block;
+  float: left;
+  max-width: 70px;
+}
