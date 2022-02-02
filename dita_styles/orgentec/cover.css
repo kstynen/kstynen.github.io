@@ -67,7 +67,7 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   font-weight: bold;
   text-align: center;
   line-height: normal;
-  padding: 20px 0 20px 0;
+  padding: 40px 0 40px 0;
   margin: 100px 0 100px 0;
 }
 
@@ -83,7 +83,8 @@ NOTE: You may need to adjust the height property for cover page size and orienta
   margin: 100px 0 100px 0;
 }
 
-.meta-company-address{
+.meta-company-address,
+.meta-company-address * {
     font-weight: normal;
 }
 
@@ -96,7 +97,6 @@ NOTE: You may need to adjust the height property for cover page size and orienta
 
 .meta-version{
     font-size: 14pt;
-    padding-top: 30px;
 }
 
 
