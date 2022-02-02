@@ -26,7 +26,7 @@ NOTE: You may need to adjust the padding property for cover page size and orient
 
 /* Apply the typography settings to the cover page. */
 .cover-page-container * {
-  font-family: "Roboto", Helvetica, Arial;
+  font-family: Arial, Times;
 }
 
 /* Define the space where the title can be placed.
