@@ -115,9 +115,9 @@ article:has(.topictitle1, :not(article)) {
 }
 
 .topictitle2 + div {
-    margin-left: 1.35em;
+    margin-left: 1.3em;
 }
 
 .topictitle3 + div {
-    margin-left: 3.55em;
+    margin-left: 3.5em;
 }
